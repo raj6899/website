@@ -4,27 +4,7 @@
 @section('keywords', 'Aeronautics')
 @section('canonical', url(Request::url()))
 @section('main.container')
-    {{-- <style>
-        .new_apply .apply_btn_box button {
-            display: block;
-            width: 200px;
-            border: 0;
-            outline: 0;
-            margin-bottom: 10px;
-            padding: 10px 0;
-            background-color: #800205;
-            color: #fff;
-            font-weight: 600;
-        }
-
-        .new_apply .btn-primary {
-            width: 200px;
-            background-color: #800205;
-            columns: #fff;
-            border: 0;
-            outline: 0;
-        }
-    </style> --}}
+    
     <div class="banner_sec">
         <div class="banner_img">
             <img src="./assets/img/About-us-banner.jpg" alt="" class="w-100" />

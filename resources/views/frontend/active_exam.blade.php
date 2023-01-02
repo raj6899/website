@@ -117,15 +117,15 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach ($post as $posts)
+                                {{-- @foreach ($post as $post)
                                 <tr>
                                     <th scope="row">1</th>
-                                    <td>{{ $posts->nameexam }}</td>
-                                    <td>{{ $posts->nameexam }}</td>
-                                    <td>{{ $posts->nameexam }}</td>
+                                    <td>{{ $post->nameexam }}</td>
+                                    <td>{{ $post->nameexam }}</td>
+                                    <td>{{ $post->nameexam }}</td>
                                     <td><a href=""> Download</a></td>
                                 </tr>
-                                @endforeach   
+                                @endforeach    --}}
                             </tbody>
                         </table>
                     </div>

@@ -63,7 +63,7 @@
     <nav class="navbar navbar-expand-lg bg-light main_navbar">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="./assets/img/logo.png" alt="" width="120" />
+                <img src="./assets/img/main_logo.png" alt="" width="120" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -77,17 +77,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{url('/')}}"><i
+                        <a class="nav-link active" aria-current="page" href="{{ url('/') }}"><i
                                 class="fa-solid fa-house-user"></i>Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('/about')}}"><i class="fa-solid fa-address-card"></i>About</a>
+                        <a class="nav-link" href="{{ url('/about') }}"><i class="fa-solid fa-address-card"></i>About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('/institute')}}"><i class="fa-solid fa-building-columns"></i>Institute</a>
+                        <a class="nav-link" href="{{ url('/institute') }}"><i
+                                class="fa-solid fa-building-columns"></i>Institute</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('/rti')}}"><i class="fa-solid fa-certificate"></i>RTI</a>
+                        <a class="nav-link" href="{{ url('/rti') }}"><i class="fa-solid fa-certificate"></i>RTI</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -96,18 +97,18 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a class="dropdown-item" href="{{url('/login')}}"><i
+                                <a class="dropdown-item" href="{{ url('/login') }}"><i
                                         class="fa-solid fa-right-to-bracket"></i>Login</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="{{url('/registration')}}"><i
+                                <a class="dropdown-item" href="{{ url('/registration') }}"><i
                                         class="fa-solid fa-user-plus"></i>Register</a>
                             </li>
                             <li>
                                 <hr class="dropdown-divider" />
                             </li>
                             <li>
-                                <a class="dropdown-item" href="{{url('/admit_card')}}">Admit Card</a>
+                                <a class="dropdown-item" href="{{ url('/admit_card') }}">Admit Card</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="#">Results</a>
@@ -131,7 +132,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('/contact')}}">
+                        <a class="nav-link" href="{{ url('/contact') }}">
                             <i class="fa-solid fa-address-book"></i>Contact</a>
                     </li>
                 </ul>

@@ -106,10 +106,9 @@
                                             @foreach ($exams as $exam)
                                             <div class="d-flex">
                                                 <i class="fa-solid fa-circle-chevron-right"></i>
-                                                <p>
-                                                    
-                                                    {{ $exam->examname }} - {{ date('d M Y',strtotime($exam->examdate)) }}
-                                                    <a href="{{url('/apply')}}" class="badge read_more">Apply Now</a>
+                                                <p>                                                    
+                                                    {{ $exam->examname }} <br> <span style="color: #910606">{{ date('d M Y',strtotime($exam->lastdate)) }}</span>
+                                                    <a href="{{url('/exam/'.$exam->slug)}}" class="badge read_more">Apply Now</a>
                                                 </p>
                                             </div>
                                             @endforeach

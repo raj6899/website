@@ -28,9 +28,16 @@ Route::get('/about', function () {
 });
 
 Route::get('/apply', function () {
-    return view('frontend.apply');
+    return view('frontend.apply.apply');
 });
 
+Route::get('/qualification', function () {
+    return view('frontend.apply.qualification');
+});
+
+Route::get('/document', function () {
+    return view('frontend.apply.document');
+});
 
 Route::get('/admit_card', function () {
     return view('admit_card');
@@ -40,15 +47,16 @@ Route::get('/active_exam', function () {
     $active= App\Models\ActiveExam::all();
     $upcoming= App\Models\UpcomingExam::all();
     $post= App\Models\PastExam::all();
-    return view('frontend.active_exam',['active'=>$active], ['upcoming'=>$upcoming], ['post'=>$post]);
+    return view('frontend.active_exam',['active'=>$active],['upcoming'=>$upcoming],['post'=>$post]);
 });
 
 Route::get('/institute', function () {
     return view('frontend.institute');
 });
 
-Route::get('/exam_details', function () {
-    return view('frontend.exam_details');
+Route::get('exam/{slug}', function($slug){
+	$exam = App\Models\Exams::where('slug', '=', $slug)->firstOrFail();
+	return view('frontend.exam_details', compact('exam'));
 });
 
 Route::get('/rti', function () {

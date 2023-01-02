@@ -77,7 +77,7 @@
                             type="text"
                             name="name"
                             class="form-control"
-                            placeholder="Please enter your firstname *"
+                            placeholder="Enter your firstname *"
                             required="required"
                             data-error="Firstname is required."
                           />
@@ -91,7 +91,7 @@
                             type="text"
                             name="surname"
                             class="form-control"
-                            placeholder="Please enter your lastname *"
+                            placeholder="Enter your lastname *"
                             required="required"
                             data-error="Lastname is required."
                           />
@@ -107,7 +107,7 @@
                             type="email"
                             name="email"
                             class="form-control"
-                            placeholder="Please enter your email *"
+                            placeholder="Enter your email *"
                             required="required"
                             data-error="Valid email is required."
                           />
@@ -115,15 +115,15 @@
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                          <label for="form_email">Number</label>
+                          <label for="form_email">Phone No.</label>
                           <input
                             id="form_email"
                             type="Number"
                             name="email"
                             class="form-control"
-                            placeholder="Please enter your email *"
+                            placeholder="Enter your Phone no. *"
                             required="required"
-                            data-error="Valid email is required."
+                            data-error="Valid phone no. is required."
                           />
                         </div>
                       </div>

@@ -17,8 +17,10 @@ return new class extends Migration
             $table->id();
             $table->string('examname');
             $table->date('examdate')->format('d/m/Y')->nullable();
+            $table->date('lastdate')->format('d/m/Y')->nullable();
             $table->time('time')->nullable();
             $table->string('seats')->nullable();
+            $table->text('important_des')->nullable();
             $table->text('description')->nullable();
             $table->string('file')->nullable();
             $table->string('slug')->unique();
