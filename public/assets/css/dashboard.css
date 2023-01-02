@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+}
+.dashboard .card1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #7c0002;
+  border: none;
+}
+.dashboard .card2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #f6f5fa;
+  border: none;
+}
+.dashboard .image span {
+  color: #fff;
+  font-size: 28px;
+}
+.dashboard .hline {
+  color: #a2a5d8;
+}
+.dashboard .btn {
+  height: 40px;
+  width: 100%;
+  border: none;
+  position: relative;
+  border-radius: 5px;
+}
+.dashboard .btn i {
+  position: absolute;
+  left: 10px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  top: 10px;
+}
+.dashboard .btn span {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  top: 10px;
+}
+.dashboard .btn:hover {
+  background-color: #680204;
+}
+.dashboard .other {
+  color: #fff;
+  font-weight: 600;
+}
+.dashboard .hello span {
+  font-size: 25px;
+  font-weight: bold;
+  color: #3c3f61;
+  right: 40px;
+}
+.dashboard .shape {
+  background-color: #fff;
+}
+.dashboard .cardchild {
+  height: 100px;
+  width: 200px;
+  border: none;
+  position: relative;
+  border-radius: 10px;
+}
+.dashboard .type {
+  font-weight: 500;
+}
+.dashboard .number {
+  font-size: 25px;
+  color: #4f5366;
+}
+.dashboard .cardchild .logo1 {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+.dashboard .cardchild .percentage {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  color: #48ddd8;
+  font-weight: 500;
+}
+.dashboard .cardchild .logo2 {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+.dashboard .cardchild .percentage2 {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  color: #bb7484;
+  font-weight: 500;
+}
+.dashboard .cardchild .logo3 {
+  position: absolute;
+  top: 15px;
+  color: #bb7484;
+  right: 20px;
+}
+.dashboard .cardchild .percentage3 {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  color: #48ddd8;
+  font-weight: 500;
+}
+.dashboard .cardchild .logo4 {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+.dashboard .cardchild .percentage4 {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  color: #bb7484;
+  font-weight: 500;
+}
+.dashboard .cardchildchild {
+  width: 335px;
+  position: relative;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.dashboard .cardchildchild .profile1 {
+  position: absolute;
+  border-radius: 50%;
+  top: -45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 120px;
+}
+.dashboard .name {
+  font-size: 18px;
+  font-weight: 500;
+}
+.dashboard .braceletid {
+  font-size: 13px;
+  color: #bab9ba;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.dashboard .btn1 {
+  height: 35px;
+  width: 160px;
+  border: none;
+  background-color: #f8c01a;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 20px;
+}
+.dashboard .btn1:hover {
+  background-color: #c72b2b;
+}
+.dashboard .icons {
+  font-size: 20px;
+  font-weight: 500;
+}
+.dashboard .dummytext {
+  font-size: 14px;
+  font-weight: normal;
+  color: #b0aeb1;
+}
+.dashboard .btn2 {
+  height: 35px;
+  width: 160px;
+  border: none;
+  background-color: #c72b2b;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 20px;
+}
+.dashboard .btn2:hover {
+  background-color: #f8c01a;
+}

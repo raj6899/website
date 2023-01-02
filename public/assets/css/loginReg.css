@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login .container_width {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right top, #4e2929, #552626);
+}
+
+.login .card {
+  height: 500px;
+  width: 340px;
+  background-color: #ece1e1;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+.login .heading {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.login .button {
+  margin-top: 20px;
+}
+
+.login .button button {
+  width: 100%;
+  height: 40px;
+  border-radius: 9px;
+  border: none;
+  background-color: #910306;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.login .button button:hover {
+  background-color: #630204;
+}
+
+.login .card hr {
+  margin-top: 30px;
+}
+
+.login .or {
+  display: flex;
+  justify-content: center;
+}
+
+.login .or p {
+  margin-top: -10px;
+  font-size: 14px;
+  background-color: #ece1e1;
+  padding: 0 4px;
+  font-weight: 600;
+}
+
+.login .input_text {
+  margin-top: 30px;
+  position: relative;
+}
+
+.login .passwo {
+  margin-top: 45px !important;
+}
+
+.login input[type="text"] {
+  width: 100%;
+  height: 40px;
+  border-radius: 9px;
+  outline: 0;
+  border: none;
+  border: 1px solid #ccc;
+  background-color: #ece1e1;
+  padding: 0 10px;
+}
+
+.login input[type="password"] {
+  width: 100%;
+  height: 40px;
+  border-radius: 9px;
+  outline: 0;
+  border: none;
+  border: 1px solid #ccc;
+  background-color: #ece1e1;
+  padding: 0 10px;
+  padding-right: 30px !important;
+}
+
+.login .fa-eye-slash {
+  position: absolute;
+  top: 13px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.login .fa-eye {
+  position: absolute;
+  top: 13px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.input_text span {
+  position: absolute;
+  top: -25px;
+  left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.input_text small {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  color: red;
+}
+
+.last_btn button {
+  width: 100%;
+  height: 40px;
+  border-radius: 9px;
+  border: none;
+  background-color: #0eaf52;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.last_btn button:hover {
+  background-color: #027432;
+}
+
+.d-none {
+  display: none;
+}
+
+.warning {
+  border: 1px solid red !important;
+}
+
+.inputs {
+  margin-bottom: 10px;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.headings {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.mb-5 {
+  margin-bottom: 30px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input i {
+  position: absolute;
+  top: 15px;
+  right: 17px;
+  cursor: pointer;
+  z-index: 10;
+  color: #aaaaaa;
+  transition: all 0.5s;
+}
+
+.password-input i:hover {
+  color: #000;
+}
+
+.login-form .inputs input {
+  height: 43px;
+  width: 335px;
+  padding-left: 10px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  transition: all 4s;
+}
+
+.green-color {
+  color: green !important;
+}
+
+.login-form .inputs input:focus {
+  border: 2px solid #890596;
+}
+
+.strength-list {
+  margin-top: 10px;
+  margin-left: 5px;
+  list-style: none;
+}
+
+.list-group i {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.list-group span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #aaa;
+}
+.strength-list .list-group {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.strength-list .list-group .fa-circle,
+.strength-list .list-group .fa-check {
+  margin: 5px 4px 0 0;
+}
+
+/* registration  */
+.register .wrapper {
+  max-width: 850px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  margin: 50px auto;
+  box-shadow: 0 8px 20px 0px #1f1f1f1a;
+  overflow: hidden;
+}
+
+.register .wrapper .form-left {
+  background: #800205;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 20px 40px;
+  position: relative;
+  width: 100%;
+  color: #fff;
+}
+
+.register .wrapper h2 {
+  font-weight: 700;
+  font-size: 25px;
+  padding: 5px 0 0;
+  margin-bottom: 34px;
+  pointer-events: none;
+}
+
+.register .wrapper .form-left p {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  pointer-events: none;
+}
+
+.register .wrapper .form-left .text {
+  margin: 20px 0 25px;
+}
+
+.register .wrapper .form-left p span {
+  font-weight: 700;
+}
+
+.register .wrapper .form-left input {
+  padding: 15px;
+  background: #fff;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 180px;
+  border: none;
+  margin: 15px 0 50px 0px;
+  cursor: pointer;
+  color: #333;
+  font-weight: 700;
+  font-size: 0.9rem;
+  appearance: unset;
+  outline: none;
+}
+
+.register .wrapper .form-left input:hover {
+  background-color: #f2f2f2;
+}
+
+.register .wrapper .form-right {
+  padding: 20px 40px;
+  position: relative;
+  width: 100%;
+}
+
+.register .wrapper .form-right h2 {
+  color: #800205;
+}
+
+.register .wrapper .form-right label {
+  font-weight: 600;
+  font-size: 15px;
+  color: #666;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.register .wrapper .form-right .input-field {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #e5e5e5;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  color: #333;
+}
+
+.register .wrapper .form-right .input-field:focus {
+  border: 1px solid #31a031;
+}
+
+.register .wrapper .option {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+  font-weight: 900;
+  cursor: pointer;
+  user-select: none;
+}
+
+.register .wrapper .option input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.register .wrapper .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 2px;
+}
+
+.register .wrapper .option:hover input ~ .checkmark {
+  background-color: #f1f1f1;
+}
+
+.register .wrapper .option input:checked ~ .checkmark {
+  border: 2px solid #e5e5e5;
+  background-color: #fff;
+  transition: 300ms ease-in-out all;
+}
+
+.register .wrapper .checkmark:after {
+  content: "\2713";
+  position: absolute;
+  display: none;
+  color: #800205;
+  font-size: 1rem;
+}
+
+.register .wrapper .option input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.register .wrapper .option .checkmark:after {
+  left: 1px;
+  top: -5px;
+  width: 5px;
+  height: 10px;
+}
+
+.register .wrapper .register {
+  padding: 12px;
+  background: #800205;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 130px;
+  border: none;
+  margin: 6px 0 50px 0px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.register .wrapper .register:hover {
+  background-color: #630204;
+}
+
+.register .wrapper a {
+  text-decoration: none;
+}
+
+@media (max-width: 860.5px) {
+  .wrapper {
+    margin: 50px 5px;
+  }
+}
+
+@media (max-width: 767.5px) {
+  .wrapper {
+    flex-direction: column;
+    margin: 30px 20px;
+  }
+
+  .wrapper .form-left {
+    border-bottom-left-radius: 0px;
+  }
+}
+
+@media (max-width: 575px) {
+  .wrapper {
+    margin: 30px 15px;
+  }
+
+  .wrapper .form-left {
+    padding: 25px;
+  }
+  .wrapper .form-right {
+    padding: 25px;
+  }
+}
